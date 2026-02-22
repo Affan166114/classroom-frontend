@@ -19,7 +19,7 @@ import { DataTable } from "@/components/refine-ui/data-table/data-table";
 import { ShowButton } from "@/components/refine-ui/buttons/show";
 
 import { Subject } from "@/types";
-import { DEPARTMENT_OPTIONS } from "@/constants";
+import { DEPARTMENT_OPTIONS } from "@/constants/index";
 
 const SubjectListPage = () => {
   const [searchQuery, setSearchQuery] = useState("");
