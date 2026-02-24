@@ -49,8 +49,8 @@ function App() {
         <ThemeProvider>
           <DevtoolsProvider>
             <Refine
-              // dataProvider={dataProvider}
-              // authProvider={authProvider}
+              dataProvider={dataProvider}
+              authProvider={authProvider}
               notificationProvider={useNotificationProvider()}
               routerProvider={routerProvider}
               options={{
